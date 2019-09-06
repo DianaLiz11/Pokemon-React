@@ -1,0 +1,64 @@
+{
+  "buttonsFilter":[
+    {
+      "id": "normal",
+      "name":"Normal"
+    },
+    {
+      "id": "fire",
+      "name":"Fire"
+    },
+    {
+      "id": "water",
+      "name":"Water"
+    },
+    {
+      "id": "grass",
+      "name":"Grass"
+    },
+    {
+      "id": "electric",
+      "name":"Electric"
+    },
+    {
+      "id": "ice",
+      "name":"Ice"
+    },
+    {
+      "id": "fighting",
+      "name":"Fighting"
+    },
+    {
+      "id": "poison",
+      "name":"Poison"
+    },
+    {
+      "id": "ground",
+      "name":"Ground"
+    },
+    {
+      "id": "flying",
+      "name":"Flying"
+    },
+    {
+      "id": "psychic",
+      "name":"Psychic"
+    },
+    {
+      "id": "bug",
+      "name":"Bug"
+    },
+    {
+      "id": "rock",
+      "name":"Rock"
+    },
+    {
+      "id": "ghost",
+      "name":"Ghost"
+    },
+    {
+      "id": "dragon",
+      "name":"Dragon"
+    }
+  ]
+}

@@ -18,7 +18,7 @@ class ButtonFilter extends Component {
     const buttons= buttonsFilter.map(
       (element)=>{
         return(
-          <button key={element.id} id={element.id} className="typesPokemon" name={element.name} title={element.name} onClick={this.filterByType.bind(this, element.name)} ></button>
+          <button key={element.id} id={element.id} className="typesPokemon" name={element.name} onClick={this.filterByType.bind(this, element.name)} ></button>
         );
       }
     );

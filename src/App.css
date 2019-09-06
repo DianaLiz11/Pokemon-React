@@ -40,17 +40,6 @@ h2 {
   font-family: 'Courgette', cursive;
 }
 
-fieldset {
-  padding: 1em;
-  border-radius: 1em;
-  border: 2px solid #fece00;
-}
-
-legend {
-  font-size: 20px;
-  color: #e37222;
-  font-family: 'Courgette', cursive;
-}
 
 li {
   list-style: none;
@@ -377,6 +366,25 @@ ul li:hover {
     0 3px 5px -1px rgba(0, 0, 0, 0.2);
 }
 
+.fieldset {
+  padding: 1em;
+  border-radius: 1em;
+  border: 2px solid #fece00;
+}
+
+.legend {
+  font-size: 20px;
+  color: #e37222;
+  font-family: 'Courgette', cursive;
+}
+
+.drop-menu{
+  font-family: 'Righteous', cursive;
+  font-size: 1.5em;
+
+}
+
+
 /* Desktop */
 @media only screen and (min-widh: 992px) {
 
@@ -448,10 +456,4 @@ ul li:hover {
   .divPokemon {
     width: 48%;
   }
-}
-
-.drop-menu{
-  font-family: 'Righteous', cursive;
-  font-size: 1.5em;
-
 }

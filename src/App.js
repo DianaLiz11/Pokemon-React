@@ -3,7 +3,8 @@ import { BrowserRouter, Route } from "react-router-dom";
 import axios from 'axios';
 import Navigation from './components/Navigation';
 import Home from './views/Home';
-import TypePokemon from './views/TypePokemon'
+import TypePokemon from './views/TypePokemon';
+import OrderPokemon from './views/OrderPokemon';
 
 import './App.css';
 
@@ -38,6 +39,7 @@ class App extends Component {
           <main>
             <Route exact path="/" component={Home}/>
             <Route path="/typePokemon/" render={() => <TypePokemon allData= {this.state.dataPokemon}/>} />
+            <Route path="/orderPokemon/" render={() => <OrderPokemon allData= {this.state.dataPokemon}/>} />
           </main>
         </div>
       </BrowserRouter>

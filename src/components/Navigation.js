@@ -1,6 +1,6 @@
 import React from 'react';
 import iconMenu from '../assets/images/menu-icon-4.png';
-import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
+import { Nav, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
 
 export default class Example extends React.Component {
   constructor(props) {

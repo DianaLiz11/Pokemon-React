@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class CardPokemon extends Component {
-  constructor(props) {
-   super(props);
-  }
-
+  
   render() {
 
     const cards= this.props.dataFiltered.map(
@@ -13,7 +10,7 @@ class CardPokemon extends Component {
         return(
           <div key={pokemon.id} className="divPokemon">
             <div className="flip-card-inner">
-              <div className="flip-card-front"><h5># {pokemon.id}</h5><img id={pokemon.id} src={pokemon.img}/><p>{pokemon.name}</p>
+              <div className="flip-card-front"><h5># {pokemon.id}</h5><img id={pokemon.id} src={pokemon.img} alt={pokemon.id}/><p>{pokemon.name}</p>
                 <span className="color-type">{pokemon.type}</span>
               </div>
               <div className="flip-card-back">

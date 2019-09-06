@@ -19,11 +19,11 @@ class OrderPokemon extends Component{
       element.weight = parseFloat(element.weight);
     });
 
-    if (sortOrder == 'asc') {
+    if (sortOrder === 'asc') {
       let array = this.props.allData.sort((a, b) => (a[sortBy] > b[sortBy]) ? 1 : -1);
       this.setState({arrayFiltered: array});
     }
-    else if (sortOrder == 'desc') {
+    else if (sortOrder === 'desc') {
       let array = this.props.allData.sort((a, b) => (a[sortBy] < b[sortBy]) ?  1 : -1);
       this.setState({arrayFiltered: array});
     }
@@ -66,14 +66,3 @@ class OrderPokemon extends Component{
 }
 
 export default OrderPokemon;
-
-
-
-// <section id="search-section">
-// <input id="search-coincidences" type="search" value={NamePokemon} placeholder="Search by name"  onChange={this.handleChange} />
-// <figure id="icon-search">
-// <img id="icon-lup" src={searchImage} alt="search"/>
-// </figure>
-// </section>
-// <ButtonFilter byCategory = {this.filterType} />
-// <section id="pokemons"><CardPokemon dataFiltered={this.state.arrayFiltered}/> </section>;

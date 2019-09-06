@@ -3,10 +3,6 @@ import '../App.css';
 import { buttonsFilter } from '../data/buttonsFilter.json';
 
 class ButtonFilter extends Component {
-  constructor(props) {
-   super(props);
-
- }
 
  filterByType(type){
    console.log(type);

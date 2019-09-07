@@ -44,3 +44,7 @@ Para el desarrollo de este proyecto se utilizó:
 - [React](https://es.reactjs.org/).
 - [Reactstrap](https://reactstrap.github.io/).
 - [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2)
+
+## Notas
+
+Se destaca que el Json con la información de los pokemones esta de manera local en la ruta: /src/data/pokemon/pokemon.JSON, por lo cual para consumir la información con Axios, utilize el módulo de npm json-server que me permitio levantar  el json en un servidor.

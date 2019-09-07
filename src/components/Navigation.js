@@ -29,9 +29,9 @@ export default class Example extends React.Component {
             </DropdownToggle>
             <DropdownMenu className="bg-warning">
               <DropdownItem ><NavLink className="drop-menu" href="/">Home</NavLink></DropdownItem>
-              <DropdownItem><NavLink className="drop-menu" href="/typePokemon">Filter By Type</NavLink></DropdownItem>
-              <DropdownItem><NavLink className="drop-menu" href="/orderPokemon">Order your Pokemon</NavLink></DropdownItem>
-              <DropdownItem><NavLink className="drop-menu" href="/stats">Stats</NavLink></DropdownItem>
+              <DropdownItem><NavLink className="drop-menu" href="/typePokemon/">Filter By Type</NavLink></DropdownItem>
+              <DropdownItem><NavLink className="drop-menu" href="/orderPokemon/">Order your Pokemon</NavLink></DropdownItem>
+              <DropdownItem><NavLink className="drop-menu" href="/stats/">Stats</NavLink></DropdownItem>
             </DropdownMenu>
           </Dropdown>
 

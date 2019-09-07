@@ -39,6 +39,7 @@ class App extends Component {
           </header>
           <main>
             <Route exact path="/" component={Home}/>
+            <Route exact path="/Pokemon-React/" component={Home}/>
             <Route path="/typePokemon/" render={() => <TypePokemon allData= {this.state.dataPokemon}/>} />
             <Route path="/orderPokemon/" render={() => <OrderPokemon allData= {this.state.dataPokemon}/>} />
             <Route path="/stats/" render={() => <Stats allData= {this.state.dataPokemon}/>} />

@@ -2,10 +2,12 @@
   "name": "pokepedia-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dianaliz11.github.io/Pokemon-React/",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.9.0",
@@ -14,6 +16,8 @@
     "reactstrap": "^8.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
